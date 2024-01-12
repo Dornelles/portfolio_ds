@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS - COMEÇO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- GOOGLE FONTS - FIM-->
+
+    <!-- bOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- bOOTSTRAP ICONS - FIM-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+
+    <title>Portfólio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo Data Science">
+                </a>
+            </div><!-- logo -->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#tag-inicio">Início</a></li>
+                    <li><a href="#tag-sobre">Sobre</a></li>
+                    <li><a href="#tag-habilidades">Habilidades</a></li>
+                    <li><a href="#tag-experiencias">Experiências</a></li>
+                    <li><a href="#tag-projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#tag-contato">
+                    <button>Contato</button>
+                </a>
+            </div> <!-- btn-contato -->
+
+        </div> <!-- interface -->
+
+        <div class="interface-mobile">
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar ">
+                    <i class="bi bi-x-lg" id="close-icon"></i>
+                </div>
+                <nav>
+                    <ul id="list-menu-close">
+                        <li><a href="#tag-inicio">Início</a></li>
+                        <li><a href="#tag-sobre">Sobre</a></li>
+                        <li><a href="#tag-habilidades">Habilidades</a></li>
+                        <li><a href="#tag-experiencias">Experiências</a></li>
+                        <li><a href="#tag-projetos">Projetos</a></li>
+                        <li><a href="#tag-contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--menu-mobile-->
+
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="tag-inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 class="title-master">Olá<span>!</span></h1>
+                        <h1>Seja muito bem-vindo.</h1>
+                        <p>
+                            Nesta página, você irá explorar os projetos que implementei
+                            durante meu processo de aprendizado sobre <span>Ciência de
+                                Dados</span>. Você vai encontrar também, informações sobre minha formação acadêmica,
+                            experiências profissionais, e habilidades envolvendo Ciência de Dados.
+
+                        </p>
+                        <!-- <p>
+                            Sinta-se à vontade para entrar em contato.
+                        </p> -->
+                        <!-- <p>
+                            Por meio desses projetos, nos quais utilizei dados públicos,
+                            eu demonstro minhas habilidades em solucionar desafios empresariais,
+                            por meio da aplicação de conceitos e ferramentas de Ciência de Dados.
+                        </p> -->
+                        <!-- <div class="btn-contato">
+                            <a href="#"> <button>Entre em contato</button>    </a> 
+                        </div> -->
+                    </div><!-- txt-topo-site -->
+                    <div class="img-topo-site">
+                        <img src="images/pessoa.png" alt="foto">
+                    </div><!-- img-topo-site -->
+                </div><!-- flex -->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <div id="tag-sobre"> <br><br></div>
+        <section class="sobre">
+            <h2 class="titulo">SOBRE <span>MIM.</span></h2>
+            <div class="interface">
+
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/fotoPerfil-2.png" alt="foto perfil">
+                    </div><!--img-sobre-->
+                    <div class="txt-sobre">
+
+                        <h3>Muito prazer, sou <span>ELDAIR DORNELLES.</span></h3>
+                        <p>Sou formado em Ciência da Computação, Mestre em Modelagem Matemática, e Doutorando em
+                            Modelagem Matemática e
+                            Computacional (último semestre).</p>
+
+                        <p> A minha tese de doutorado não está relacionada a Ciência de Dados; no entanto, em
+                            paralelo, tenho dedicado esforços aos estudos nessa área. Com base nos conhecimentos
+                            adquiridos,
+                            tive a oportunidade de contribuir em projetos de Ciência de Dados pertencentes a colegas do
+                            grupo de pesquisa que integro.</p>
+
+                        <!-- trabalho na análise e seleção de ativos para carteira de clientes de acordo
+                            com o seu perfil de investidor e trabalho com projetos pessoas sobre Ciência de Dados,
+                            para adquirir experiência na solução de problemas de negócio e domínio sobre as</p> -->
+
+                        <p>Neste momento, estou em busca de uma oportunidade profissional como Cientista de Dados,
+                            com o propósito de contribuir para o desenvolvimento de soluções baseadas em dados,
+                            visando aprimorar as tomadas de decisões em um ambiente corporativo.</p>
+
+                        <!-- <div class="btn-social">
+                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div> -->
+                    </div><!--txt-sobre-->
+                </div>
+            </div>
+
+        </section><!--sobre-->
+
+        <div id="tag-habilidades"> <br><br></div>
+        <section class="habilidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <SPAN>HABILIDADES.</SPAN></h2>
+                <div class="flex">
+
+                    <div class="habilidades-box">
+                        <div class="habilidades-header">
+                            <i class="bi bi-code-square"></i>
+                            <h3>Linguagens de Programação<br> e Banco de Dados</h3>
+                        </div>
+                        <div class="habilidades-body">
+                            <ul>
+                                <li>Python com foco em análise de dados</li>
+                                <li>Web scraping com Python</li>
+                                <li>SQL para extração de dados</li>
+                                <li>R para modelagem estatística</li>
+                                <li>Banco de Dados SQLite, Postgress, MySQL, <br>
+                                    Oracle, MongoDB e Cassandra</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="habilidades-box">
+                        <div class="habilidades-header">
+                            <i class="bi bi-magic"></i>
+                            <h3>Estatística e Machine Learning</h3>
+                        </div>
+                        <div class="habilidades-body">
+                            <ul>
+                                <li>Estatística descritiva ( localização, dispersão, assimetria, kurtosis, densidade )
+                                </li>
+                                <li>Algoritmos de Regressão, classificação, clusterização e "learn to rank"</li>
+                                <li>Técnicas de balanceamento dos dados, seleção de atributos e redução de
+                                    dimensionalidade</li>
+                                <li>Métricas de performance dos algoritmos ( RMSE, MAE, MAPE, Confusion Matrix,
+                                    Precisão, Recall, Curva ROC, Curva Lift, AUC, Silhouette Score, DB-Index )</li>
+                                <li>Pacotes de Machine Learning: Sklearn e Scipy</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div><!-- flex -->
+
+                <div class="flex">
+
+                    <div class="habilidades-box">
+                        <div class="habilidades-header">
+                            <i class="bi bi-bar-chart-fill"></i>
+                            <h3>Visualização de Dados</h3>
+                        </div>
+                        <div class="habilidades-body">
+                            <ul>
+                                <li>Matplotlib</li>
+                                <li>Seaborn</li>
+                                <li>Plotly</li>
+                                <li>Bokeh</li>
+                                <!-- <li>Power BI, Tableau, Metabase e Looker</li> -->
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="habilidades-box">
+                        <div class="habilidades-header">
+                            <i class="bi bi-columns-gap"></i>
+                            <h3>Engenharia de Software</h3>
+                        </div>
+                        <div class="habilidades-body">
+                            <ul>
+                                <li>Git, Github, Gitlab, Cookiecutter, Virtual Environment e Docke</li>
+                                <li>Streamlit, Flask, Python API's</li>
+                                <li>Cloud Heroku, AWS Amazon, Google Cloud Platform ( GCP ) e Azure</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div><!-- flex -->
+
+
+            </div><!-- interface -->
+        </section><!-- especialidades -->
+
+        <div id="tag-experiencias"> <br><br></div>
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <SPAN>EXPERIÊNCIAS.</SPAN></h2>
+
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <div class="especialidades-header">
+                            <i class="bi bi-code-square"></i>
+                            <h3>4+ Projetos completos de Ciência de Dados</h3>
+                        </div>
+                        <div class="especialidades-body">
+                            <p>Construção de soluções de dados para problemas de negócio, próximos dos desafios
+                                reais das empresas, utilizando dados públicos de competições de Ciência de Dados,
+                                onde eu abordei o problema desde a concepção do desafio de negócio até a
+                                publicação do algoritmo treinado em produção, utilizando ferramentas de Cloud
+                                Computing.</p>
+                        </div>
+                    </div>
+                </div><!-- flex -->
+
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <div class="especialidades-header">
+                            <i class="bi bi-code-square"></i>
+                            <h3>3+ anos como Analista de Risco</h3>
+                        </div>
+                        <div class="especialidades-body">
+                            <p>Estudo e seleção de ativos de baixo risco para clientes com perfil de investidor
+                                conservador. Rotinas de atualização de relatórios e métricas para os "steakholder".</p>
+                        </div>
+                    </div>
+                </div><!-- flex -->
+
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <div class="especialidades-header">
+                            <i class="bi bi-code-square"></i>
+                            <h3>2+ anos como monitor de Econometria</h3>
+                        </div>
+                        <div class="especialidades-body">
+                            <p>Correção de provas, exercícios e monitorias ao vivo para tirar dúvidas dos alunos.</p>
+                        </div>
+                    </div>
+                </div><!-- flex -->
+
+
+
+            </div><!-- interface -->
+        </section><!-- especialidades -->
+
+        <div id="tag-projetos"> <br></div>
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+
+                <div class="flex"><!--PROJETO 01-->
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <a href="https://github.com/Dornelles/data-science-challenge" target="_blank">
+                            <h1>Leia mais...</h1>
+                            <div class="overlay">
+                                <i class="bi bi-github"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="projeto-text">
+                        <h3 class="projeto-titulo">Construção de um programa de fidelidade com clusterização de
+                            clientes</h3>
+                        <div class="projeto-decricao">
+                            <p>Eu usei Python, Estatística e técnicas não-supervisionadas de Machine Learning para
+                                segmentar um grupo de clientes com base em suas características de performance de
+                                compra, a fim de selecionar grupos de clientes para formar um programa de Fidelidade
+                                com o objetivo de aumentar a receita da empresa. E o resultado dessa solução, caso
+                                fosse implementada, seria de R$ 15MM de dólares de receita anual.</p>
+                            <h3>Ferramentas utilizadas</h3>
+                            <ul>
+                                <li>Git, Gitlab e Github</li>
+                                <li>Python, Pandas, Matplotlib e Seaborn</li>
+                                <li>Jupyter Notebook</li>
+                                <li>K-Means, Hierarquical Clustering, DBScan</li>
+                                <li>AWS Cloud (EC2, S3, Postgres, SQLite)</li>
+                                <li>Metabase Visualization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--flex-->
+
+                <div class="flex"><!--PROJETO 02-->
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <a href="https://github.com/Dornelles/data-science-challenge" target="_blank">
+                            <h1>Leia mais...</h1>
+                            <div class="overlay">
+                                <i class="bi bi-github"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="projeto-text">
+                        <h3 class="projeto-titulo">Construção de um programa de fidelidade com clusterização de
+                            clientes</h3>
+                        <div class="projeto-decricao">
+                            <p>Eu usei Python, Estatística e técnicas não-supervisionadas de Machine Learning para
+                                segmentar um grupo de clientes com base em suas características de performance de
+                                compra, a fim de selecionar grupos de clientes para formar um programa de Fidelidade
+                                com o objetivo de aumentar a receita da empresa. E o resultado dessa solução, caso
+                                fosse implementada, seria de R$ 15MM de dólares de receita anual.</p>
+                            <h3>Ferramentas utilizadas</h3>
+                            <ul>
+                                <li>Git, Gitlab e Github</li>
+                                <li>Python, Pandas, Matplotlib e Seaborn</li>
+                                <li>Jupyter Notebook</li>
+                                <li>K-Means, Hierarquical Clustering, DBScan</li>
+                                <li>AWS Cloud (EC2, S3, Postgres, SQLite)</li>
+                                <li>Metabase Visualization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--flex-->
+
+
+
+
+
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <!--
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        -->
+        <!--interface-->
+        <!-- </section>formulario -->
+
+    </main>
+
+    <footer>
+        <div class="interface" id="tag-contato">
+            <h2 class="titulo">CONTATO <span>.</span></h2>
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <a href="#tag-inicio">
+                        <img src="images/logo.png" alt="Voltar ao início">
+                    </a>
+                    </div><!--logo-footer-->
+
+                    <div class="line-footer">
+                        <p><i class="bi bi-envelope-fill"></i> <a
+                                href="mailto:eldair.dornelles@gmail.com">eldair.dornelles@gmail.com</a></p>
+                    </div><!--line-footer-->
+
+                    <div class="btn-social">
+                        <a href="https://www.linkedin.com/in/dornelles/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p>Qualquer sugestão ou dúvida, por favor, entre em contato.</p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+
+</html>
